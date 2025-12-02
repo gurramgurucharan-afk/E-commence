@@ -1,0 +1,113 @@
+body{
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(229, 121, 12);
+}
+header{
+    background-color: rgba(34, 32, 32, 0.897);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.main{
+    background-color: rgb(237, 89, 14);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    background-color: aquamarine;
+    color: blueviolet;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.product img{
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+.products{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+  
+}
+.product{
+    text-align: center;
+    background-color: rgb(242, 243, 241);
+   width: 200px;
+   padding: 20px;
+}
+
+
+.cart-container{
+    text-align: center;
+    background-color: rgb(223, 194, 249);
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.highlights{
+    background:rgba(252, 0, 80, 0.818);
+    padding: 40px;
+    margin: 60px auto;
+    width: 80%;
+    text-align: center;
+
+}
+.highlights h2{
+    font-size:28px;
+    margin-bottom:20px;
+}
+.highlights ul{
+    list-style: none;
+}
+.highlights ul {
+    font-size: 18px;
+    padding:8px 0;
+}
+.cart-container{
+    text-align: center;
+    background-color: rgb(221, 224, 217);
+    align-items: center;
+    padding: 20px;
+}
+#user-display{
+    position:absolute;
+       right: 20px;
+       top: 20px;
+       font-weight:bold;
+       
+}

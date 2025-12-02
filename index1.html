@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <!--username display box-->
+     <div id="user-display"></div>
+        <h1>🛍️ MyShop</h1>
+        <nav>
+            <a href="index1.html">Home</a>
+            <a href="product1.html">Products</a>
+            <a href="laptop.html">laptop</a>
+            <a href="cart1.html">Cart</a>
+            <a href="login.html">login</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <h2>Welcome to MyShop!</h2>
+        <p>Find the best deals on top products</p>
+        <a href="product1.html" class="btn">shop Now</a>
+        <a href="#" class="btn">Categories</a>
+    </section>
+    <section class="centre highlights">
+            <h2>Why Choose Us?</h2>
+            <ul> 
+                <li>✅ Quality Products</li>
+                <li>✅ Wide Selection of Products</li>
+                <li>✅ Competitive Prices</li>
+                <li>✅ Fast Shipping</li>
+                <li>✅ Excellent Customer Service</li>
+                <a href="aboutus.html" class="btn">About Us</a>
+            </ul>       
+    </section>
+
+    
+
+    <footer>
+        <p>© 2025 MyShop. All Rights Reserved.</p>
+    </footer>
+    <script>
+        let user = localStorage.getItem("loginuser");
+
+        if(user) {
+            document.getElementById("user-display").innerText = "Welcome, " + user;
+        }
+    </script>
+<script src="script12.js"></script>
+
+
+</body>
+</html>

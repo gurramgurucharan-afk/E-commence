@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function validate(form){
+        var a1=form.t1.value;
+        var a2=form.pass1.value;
+       if(a1 == "Gurucharan" && a2 == "12345"){
+            localStorage.setItem("loginuser", a1);
+        alert("Success");  
+        return true;
+        }
+        else{
+            alert("Invalid username or password");
+            return false;  
+        }
+    }
+</script>
+
+</head>
+<body>
+    <form name="form" action="index1.html" method="post">
+    <center>
+    <h1>E-Commerce Login</h1> <br><br>
+    Username: <input type="text" name="t1"> <br><br>
+    Passwsord: <input type="password" name="pass1"> <br><br>
+    <input type="submit" onclick="return validate(this.form)">
+    </center>
+    </form>
+    
+</body>
+</html>
